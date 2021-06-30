@@ -1,0 +1,31 @@
+<!-- Versão 5 do HTML -->
+<!DOCTYPE html>
+<!-- Tag principal / Idioma da página -->
+<!-- corrigido lang que estava para inglês -->
+<html lang="pt-br">     
+<head>
+    <meta charset="UTF-8">
+    <title>Criando um formulário simples</title>
+    <!-- Link do o arquivo CSS (Na pasta STYLE) -->
+    <!-- corrigido o link para o arquivo css, corrigido isso, a caixa de login se centralizou na página -->
+    <link rel="stylesheet" href="style/styles.css">
+</head>
+<body>
+    <!-- Tag de início do formulário -->
+    <form>
+        <!-- Campo de login -->
+        <h1>Iniciar Sessão</h1>
+        <label for="nome">Login</label>
+        <input type="text" id="login" name="login">
+        <br><br>
+
+        <!-- Campo de senha -->
+        <label for="senha">Senha</label>
+        <!-- corrigido o input type que deve ser password para esconder os caracteres durante a digitação -->
+        <input type="password" id="senha" name="password">
+        <br><br>
+
+        <!-- Botão de envio -->
+        <input type="submit" value="Enviar" id="botao">
+</body>
+</html>
